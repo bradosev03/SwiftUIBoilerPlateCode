@@ -1,0 +1,1768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0084DD08E9A2383560949E90C72CD563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F874DF376828B652E024EDAE0C22747 /* Foundation.framework */; };
+		09AC3A087A9C790D0C65DB7E90DACC2A /* RequiredInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B4875DB1E13F8425852A7845A34AD /* RequiredInputValidator.swift */; };
+		0D234442FAE7A681F4D02E4399189055 /* DynamicButtonStyleVerticalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D39C6C36B824CCAF3E9E8EA4C9BB69 /* DynamicButtonStyleVerticalLine.swift */; };
+		0E4AAC1F0D5E406D08DAE7E480BA4764 /* DynamicButtonStyleDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06EEA201F397BDF348B2149213B28AA /* DynamicButtonStyleDownload.swift */; };
+		13784C0BC66A2453EC74E6FD3715A100 /* Pods-BoilerPlateCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FDCB30947D859B2B4C542D3594DE77F /* Pods-BoilerPlateCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		196CFD68BB6359B9AD4D9501581C4DAF /* UIViewLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BAF2F1B8101D17D453364F83AB37C1 /* UIViewLoading.swift */; };
+		1EF311890A55809646DC29BB99D743A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F874DF376828B652E024EDAE0C22747 /* Foundation.framework */; };
+		20C9ADC6D2CEFD22ADAE6E9314C93A1E /* Formatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA119B2C0AFF0F1BF9640EDF6F2B0229 /* Formatter-dummy.m */; };
+		235CF9EEF9B9DECF8B3C2A96CB60FA0D /* SlidingTableViewControllerCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = ECD4360A9569D98C69086E37F1A66B38 /* SlidingTableViewControllerCell.xib */; };
+		260594236DC0DA170536026C8B3C87B4 /* DynamicButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1470260EAB734DBC26370D36A0BD8242 /* DynamicButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26CE88486245CE21764DABC9C70099DB /* EVSlidingTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A369EFC8CA0A8DF9737F98AB899BC8 /* EVSlidingTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28D69987160A9DFC158D5345A766C595 /* DynamicButtonStylePause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C4A1B5108286F2248BF772E2CEEDD8 /* DynamicButtonStylePause.swift */; };
+		29DDF37EB5C597F12AD390034B1A09FB /* DynamicButtonStylePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C424B9042A0F086D21BCFF7A9D80B2 /* DynamicButtonStylePlus.swift */; };
+		2B094F18D29D09D5A8E991A60428B859 /* CardExpirationDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1702784F3FBD23A144721BD9D2981B5A /* CardExpirationDateFormatter.swift */; };
+		2C599646607DD8CD144C60030C690634 /* Formattable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A328EABD1A4ADAB207B928221E6290E5 /* Formattable.swift */; };
+		3191DCD804C903CE8AB762FD812F7C41 /* DynamicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD6E49D38F8B14FE2182C6497B8162 /* DynamicButton.swift */; };
+		328735AE6E4F815CE547E7CDB0E51369 /* EVOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859C54EE15A1EDD4D24B00C7D865514 /* EVOverlayView.swift */; };
+		34CA86D396D741A9F79BFBE1325BD4D5 /* Validation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62B4C816EB57C105C4D7216BE43F0EDE /* Validation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		356B322F9DE3036C7DA1BB8E444C7B7A /* ContactItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0E2FEC50A6432E09C9BA0199A139361 /* ContactItem.xib */; };
+		36E23BE960B8AADADBEA37D2CB0D1F9C /* SlidingTableViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA277628D6017A4B960831CF737A2FF /* SlidingTableViewControllerCell.swift */; };
+		3AA8A5AF8ECE162B565E1A4603C26610 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D0F20565E1386543E61B08CB60C74 /* FormTextField.swift */; };
+		3D6EB1C778C857A623ACDDD1682DE807 /* CardExpirationDateInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47795EA95E8E0845148BFFE5862D3C4B /* CardExpirationDateInputValidator.swift */; };
+		3ED86F2BA947B70C2FCF92AAF8679F2C /* SlidingTableViewControllerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD4360A9569D98C69086E37F1A66B38 /* SlidingTableViewControllerCell.xib */; };
+		4E0491A99988E459436319F0A84EF6AC /* DrawerViewOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD22F45E0B657FCF653BD3AE4060803 /* DrawerViewOption.swift */; };
+		4E0FDDDC90316040A0C467C03CA3408F /* Pods-BoilerPlateCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FED7BB0ED5EC9CEE3910E7E8717084E2 /* Pods-BoilerPlateCode-dummy.m */; };
+		5E045ADC47936B22514D24A223657ED9 /* Validation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82767020D377B8181A11D9F2D7CFB659 /* Validation.framework */; };
+		5EF32AB6D8C904E031AB764220C3C5DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F874DF376828B652E024EDAE0C22747 /* Foundation.framework */; };
+		5FAC77C6A08250B54FBBBB042AA4D63F /* ContactItem.xib in Sources */ = {isa = PBXBuildFile; fileRef = E0E2FEC50A6432E09C9BA0199A139361 /* ContactItem.xib */; };
+		68CD8B485CED0ED4773B042940B6DFC7 /* FormTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D223EF8C69E2A23796BCC041F4129AE /* FormTextField-dummy.m */; };
+		6C4F763373A22E0529BB5D07DAB8C34B /* DynamicButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA0200C7D2E53B3AD335799030943F7 /* DynamicButtonStyle.swift */; };
+		6D4CCC54434F7A9F04DF1F6F75F78F62 /* DynamicButtonStyleFastForward.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B09C100040B3A85569834EF1CF2C0C /* DynamicButtonStyleFastForward.swift */; };
+		6EFB699A032CE128E7367C74A1B7B118 /* Validation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F89087621E9246B809AE3CA413F42783 /* Validation-dummy.m */; };
+		72490EF46D1CB99D5551C5D65E709D76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F874DF376828B652E024EDAE0C22747 /* Foundation.framework */; };
+		74B69486C591977A04D6BE033AB60512 /* DynamicButtonStyleHamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C009D7AD1F3AF5D142FEAFA835ED507D /* DynamicButtonStyleHamburger.swift */; };
+		7D4EEFAE5596A88FE3558B16FD9F9982 /* DynamicButtonStyleNone.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BBEAB32589584142A59525DF52A53C /* DynamicButtonStyleNone.swift */; };
+		84630C1FDD8F56BA88988AAA7E95A7E5 /* SlidingTableViewControllerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8539C2E7EA526500BFAB8FC81BBCCBC /* SlidingTableViewControllerCell.xib */; };
+		850BFFF848007B8FB69086342368640D /* DynamicButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE755915CEFB740734D4532D67175554 /* DynamicButton-dummy.m */; };
+		86379C3DCC1BEED8B5A823394EA37095 /* DynamicButtonStyleArrowRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A672F1D227BB885356FD40EA41F3CF33 /* DynamicButtonStyleArrowRight.swift */; };
+		88B052E75BE1D6EB75B953257CCA5B41 /* CardNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52F60F86BC1566087BE0AB0AC6CE18A /* CardNumberFormatter.swift */; };
+		89F2BCB38FCE5DAFD4AED0902732454B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F874DF376828B652E024EDAE0C22747 /* Foundation.framework */; };
+		8A986AA5977F7C0CAB4D9C9F16CE4FD3 /* DynamicButtonStyleCircleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEBC8D98B90695C819F850346BA2EEC /* DynamicButtonStyleCircleClose.swift */; };
+		8BCE6AFE5FF8063BEB2CD976D211998A /* DynamicButtonStylePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236AE9E8D75F7ED4B0216F6AC3BE3D9A /* DynamicButtonStylePlay.swift */; };
+		8E77FCE74EBE68CA39047A673221D245 /* Formatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4622C3AB9281F84DCAF73D26116CA892 /* Formatter.framework */; };
+		8F9CD2EEBFBABAAE47FAD5C5F3B46438 /* FormTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 298C832DDD9240EC49E802DC50C63A60 /* FormTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9287A3B90BE1AF7D5FD15C01BB67AA5A /* InputValidatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188604FC83AFBC61726EEE50EC1141F2 /* InputValidatable.swift */; };
+		92BFB4D589BAF3CBED315D8B71298528 /* DynamicButtonStyleArrowLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336AEFA18957D2DD24D7BC981E724E01 /* DynamicButtonStyleArrowLeft.swift */; };
+		92E4243C2BDFF9A35707869697DE1637 /* FormTextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46579801CA258F4ABAF6A0D45216B12 /* FormTextFieldClearButton.swift */; };
+		9510F0FAD9DF2AAA9957B84D3AC3A49F /* EVOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FA555EFB074119628AF1A2A1E89CB /* EVOverlay.swift */; };
+		961665FC73D34D0BC4847E189811AA86 /* DynamicButtonStyleCaretUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB5345BD4C82DF1656A1659B716EC43 /* DynamicButtonStyleCaretUp.swift */; };
+		965DA5DC5D80A04559C76F65198FF243 /* DynamicButtonStyleRewind.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF127DCCF94AD2CB3050E3B76AE490E6 /* DynamicButtonStyleRewind.swift */; };
+		9EDDC454E0A72765CCC2829CBB2520A9 /* SlidingTableViewControllerCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = C87C236CBDCB46FBC119B7B7670CAFFA /* SlidingTableViewControllerCell.xib */; };
+		A2E645E204C259F4BB0192893B35DEB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2921385F099FCD6EAB4D2247F8A9E20 /* UIKit.framework */; };
+		A4BF388B1BEF7C803312F91BC6CE2930 /* DecimalInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAA70533295810C8B7FE7231D2DDB6 /* DecimalInputValidator.swift */; };
+		A4D0CE56FBA2A16E5C118C3B05A315AB /* DynamicButtonStyleCaretLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB322374C501901D5D6DE4EEBCFCE10 /* DynamicButtonStyleCaretLeft.swift */; };
+		A8B5A12FB93A2F87B6AB842D211FA63D /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074C6A7719C187E397F67CF049B170E /* UITableViewCellExtension.swift */; };
+		AB6CF6571F45DD4C67DBDA3C5017C1B9 /* EVSlidingTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E48CE0D3FBC419B1F0D531270FCEB8 /* EVSlidingTableViewCell-dummy.m */; };
+		ABEE1136142ECE2735A5A18A8FC7F4D9 /* ContactItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D03E2C5D5FE2419834A37DBF27E3AA /* ContactItem.swift */; };
+		AFF26FD8CE9ADDDD2E346F8E59D47669 /* PathHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525A79E9E9291163383F8E78DAB7BFE /* PathHelper.swift */; };
+		B03949B68190D6BCD0A9DB443BB0906C /* Validation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82767020D377B8181A11D9F2D7CFB659 /* Validation.framework */; };
+		B2A3F596EBA165BC0671CC37BE4D5FB7 /* DynamicButtonStyleReload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DE78ACDEE59C2CB27A176915850030 /* DynamicButtonStyleReload.swift */; };
+		B869C5582AA0B76D81E540AE776E52B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F874DF376828B652E024EDAE0C22747 /* Foundation.framework */; };
+		B86EA5EC4346A5414BF3FABC98C8F623 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505D50B70265F0CA3BC47FC66AB4E0A7 /* Validation.swift */; };
+		BA197BD99ADB480ABF244AEFC6901040 /* DynamicButtonStyleCirclePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961AB33D6533BDCAE5153E46F5698F82 /* DynamicButtonStyleCirclePlus.swift */; };
+		BC1E754F6D032857D7177E5974A6BB8D /* EVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA5255374914F809E8CB183E170F3E6 /* EVConstants.swift */; };
+		BE181B983AE85DBEB48C75E7577B56E3 /* EVSlidingTableViewCell.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62CAC89FC77C9B1D4E316D14B564D23F /* EVSlidingTableViewCell.bundle */; };
+		C0D6B45379C6EDD52DCA94F8F4278F3F /* DynamicButtonStyleCheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60DED67806648DB8929CFAEDE4750E0 /* DynamicButtonStyleCheckMark.swift */; };
+		C1C93E05C3476C00D6A063B7F742433A /* InputValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2656E22D4D0FDDEE84BB69358389615B /* InputValidator.framework */; };
+		C40806805B792281D5C8D32FD2FC3877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2921385F099FCD6EAB4D2247F8A9E20 /* UIKit.framework */; };
+		C425B5A96D0B2297CEAD38649993834A /* InputValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5020A8EBC578681025E1990DC3A9C403 /* InputValidator-dummy.m */; };
+		C85E057465498C283C62249EA4308942 /* FormTextFieldTypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A4A19CB4B3820F23B356B3E076D57B /* FormTextFieldTypeManager.swift */; };
+		CD429B237D5FE82801A6D88EA6EEE373 /* DynamicButtonStyleHorizontalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63301433DEBF9352CEA527D0FF09219E /* DynamicButtonStyleHorizontalLine.swift */; };
+		CE11686181135A0BF711407D5CD2D975 /* DynamicButtonStyleCaretRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC1E1C3273A3009B0E343CCD07D4F4 /* DynamicButtonStyleCaretRight.swift */; };
+		CE27FB3A191D5BEE0F9F3B29D68A9EB1 /* InputValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 192F5F1D00F4239BAB4E35DAA944360B /* InputValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFC892A79A90166FF6B987F131A14383 /* DynamicButtonStyleArrowUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892E32840E4F31ED5A087272EBB1511 /* DynamicButtonStyleArrowUp.swift */; };
+		D11F81DB50DB76E723BA8D744ED87F1C /* DynamicButtonStyleClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41E22724C45FCB1BBFC0BD92EB2717 /* DynamicButtonStyleClose.swift */; };
+		D1E6FDCB1DA961A307FD2E96D0DB17F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F874DF376828B652E024EDAE0C22747 /* Foundation.framework */; };
+		E2AD16F91375C7F59FAF2485ED457710 /* DynamicButtonStyleDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFEB80BB0224E27998E182E3E9CDE77 /* DynamicButtonStyleDot.swift */; };
+		E5A0219B3B06E322032C7D0F9E153387 /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730C9AE4D8FD1170E0A86972F57A80BF /* InputValidator.swift */; };
+		EB5D4A095A3AF3B7131562B984E97A69 /* DynamicButtonStyleCaretDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC963156472923DF7D674A338529FE14 /* DynamicButtonStyleCaretDown.swift */; };
+		EE615EE44476A825562DA3C9BC07BA2A /* DynamicButtonStyleArrowDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70BB07953513DF27E622D676B600F4C /* DynamicButtonStyleArrowDown.swift */; };
+		F53D17AE151727F03D01F88D3BF6ADD4 /* Formatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFEA8FB1D4670773C810B27E5FB7E7B3 /* Formatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D145C22570651C2CE7AC4481C990F2 /* DynamicButtonStyleStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F25C84C78F1206DFF7B5CC12153929 /* DynamicButtonStyleStop.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		081F01352E8AC9300309578716BC0300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6251BD2A949A640A383B60C3B828DE8E;
+			remoteInfo = FormTextField;
+		};
+		0A03FA439F3EE76AD5AAB1F41EA83526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE0B22033041CECF724C28BC8DE3DC1;
+			remoteInfo = InputValidator;
+		};
+		1384576BD9A6EDE8446D7AA8574610E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA17100DB8275605CCE5C20A2BAE7024;
+			remoteInfo = DynamicButton;
+		};
+		1B8B0CC71381982A57F1F00F768A2AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35E2BF10731C585314E159FDF986698;
+			remoteInfo = Validation;
+		};
+		41F24F91024B633458F4E5ED34E09597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE0B22033041CECF724C28BC8DE3DC1;
+			remoteInfo = InputValidator;
+		};
+		5B090F0180C84D0B6227CF791130A246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55AE45BC1AF8C15262A3E4BD21C6551;
+			remoteInfo = Formatter;
+		};
+		A58B7F8567F675EA3DEDD884A4D8B32D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D55AE45BC1AF8C15262A3E4BD21C6551;
+			remoteInfo = Formatter;
+		};
+		C1792D60CA9DA00617982CD9B2E30011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA4E279505D3A7AE1ED009909B074495;
+			remoteInfo = "EVSlidingTableViewCell-EVSlidingTableViewCell";
+		};
+		CC019D0D55D5530FDCF8D1D43505ACA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35E2BF10731C585314E159FDF986698;
+			remoteInfo = Validation;
+		};
+		CFBA53C98766DCABC3A1770C49F4804A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB953C19676165CD6818225260FCCC39;
+			remoteInfo = EVSlidingTableViewCell;
+		};
+		D14FECD676C7CC4829D4A752997B38A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35E2BF10731C585314E159FDF986698;
+			remoteInfo = Validation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD22F45E0B657FCF653BD3AE4060803 /* DrawerViewOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerViewOption.swift; path = EVSlidingTableViewCell/Classes/DrawerCell/DrawerViewOption.swift; sourceTree = "<group>"; };
+		12F677309F9ADDD2D79E29D0EC5DD8B0 /* DynamicButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicButton-prefix.pch"; sourceTree = "<group>"; };
+		1470260EAB734DBC26370D36A0BD8242 /* DynamicButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicButton-umbrella.h"; sourceTree = "<group>"; };
+		1659C421187ED5B193535EFCDBCD1BEF /* Validation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Validation.xcconfig; sourceTree = "<group>"; };
+		1702784F3FBD23A144721BD9D2981B5A /* CardExpirationDateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardExpirationDateFormatter.swift; path = Sources/CardExpirationDateFormatter.swift; sourceTree = "<group>"; };
+		188604FC83AFBC61726EEE50EC1141F2 /* InputValidatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputValidatable.swift; path = Sources/InputValidatable.swift; sourceTree = "<group>"; };
+		192F5F1D00F4239BAB4E35DAA944360B /* InputValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InputValidator-umbrella.h"; sourceTree = "<group>"; };
+		19DE78ACDEE59C2CB27A176915850030 /* DynamicButtonStyleReload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleReload.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleReload.swift; sourceTree = "<group>"; };
+		1AE86A5CD9DA4421598C87A88A2F18FF /* Formatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Formatter.modulemap; sourceTree = "<group>"; };
+		1CC895436D4AAB2FC807AD2E4F8F7E15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2200C4CCFE08DC256A15F2C2907C44F1 /* FormTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FormTextField-prefix.pch"; sourceTree = "<group>"; };
+		22223D9225A93D63464214B99744D913 /* EVSlidingTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVSlidingTableViewCell.xcconfig; sourceTree = "<group>"; };
+		236AE9E8D75F7ED4B0216F6AC3BE3D9A /* DynamicButtonStylePlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePlay.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePlay.swift; sourceTree = "<group>"; };
+		2497917A683C9E88880B6B200264ABB9 /* Validation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Validation-prefix.pch"; sourceTree = "<group>"; };
+		25B6FCC4E1E00CAC726805CBB25CF538 /* Formatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Formatter.xcconfig; sourceTree = "<group>"; };
+		2656E22D4D0FDDEE84BB69358389615B /* InputValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InputValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		298C832DDD9240EC49E802DC50C63A60 /* FormTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FormTextField-umbrella.h"; sourceTree = "<group>"; };
+		2D223EF8C69E2A23796BCC041F4129AE /* FormTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FormTextField-dummy.m"; sourceTree = "<group>"; };
+		2DBAA70533295810C8B7FE7231D2DDB6 /* DecimalInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalInputValidator.swift; path = Sources/DecimalInputValidator.swift; sourceTree = "<group>"; };
+		2F05B068D65D9CD5EF4A14492328BDF8 /* Pods_BoilerPlateCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoilerPlateCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FDB42B96EF963764BDD43C2C0956976 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314F0A5A8CE05DFA0AB877AD75699C77 /* FormTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FormTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AA8A0C9ACE4F793FB6C2CB5B50B1B7 /* InputValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InputValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		336AEFA18957D2DD24D7BC981E724E01 /* DynamicButtonStyleArrowLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowLeft.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowLeft.swift; sourceTree = "<group>"; };
+		3525A79E9E9291163383F8E78DAB7BFE /* PathHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathHelper.swift; path = Sources/PathHelper.swift; sourceTree = "<group>"; };
+		36AD7CA93947CBB2818C2E50FD717827 /* InputValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InputValidator-prefix.pch"; sourceTree = "<group>"; };
+		3E623FE431D0F15281AA7153E7314562 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDCB30947D859B2B4C542D3594DE77F /* Pods-BoilerPlateCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoilerPlateCode-umbrella.h"; sourceTree = "<group>"; };
+		4622C3AB9281F84DCAF73D26116CA892 /* Formatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Formatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CD6E49D38F8B14FE2182C6497B8162 /* DynamicButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButton.swift; path = Sources/DynamicButton.swift; sourceTree = "<group>"; };
+		47795EA95E8E0845148BFFE5862D3C4B /* CardExpirationDateInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardExpirationDateInputValidator.swift; path = Sources/CardExpirationDateInputValidator.swift; sourceTree = "<group>"; };
+		4892E32840E4F31ED5A087272EBB1511 /* DynamicButtonStyleArrowUp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowUp.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowUp.swift; sourceTree = "<group>"; };
+		4BC86CA5CF5C0E81B3729FC4C97DAEE9 /* Validation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Validation.modulemap; sourceTree = "<group>"; };
+		4DE0B59AF94FDAF6F1756C9A2C3DA62F /* Pods-BoilerPlateCode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoilerPlateCode-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E8B4875DB1E13F8425852A7845A34AD /* RequiredInputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequiredInputValidator.swift; path = Sources/RequiredInputValidator.swift; sourceTree = "<group>"; };
+		5020A8EBC578681025E1990DC3A9C403 /* InputValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InputValidator-dummy.m"; sourceTree = "<group>"; };
+		505D50B70265F0CA3BC47FC66AB4E0A7 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Sources/Validation.swift; sourceTree = "<group>"; };
+		50E48E93FA4BD49F38FF00D4FFAD5DB1 /* DynamicButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DynamicButton.modulemap; sourceTree = "<group>"; };
+		52E48CE0D3FBC419B1F0D531270FCEB8 /* EVSlidingTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVSlidingTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		547A927A8F2726973A97417F486F54EC /* Pods-BoilerPlateCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BoilerPlateCode.modulemap"; sourceTree = "<group>"; };
+		57221FDDE55059AA2EC62A39452BB50B /* DynamicButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5859C54EE15A1EDD4D24B00C7D865514 /* EVOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVOverlayView.swift; path = EVSlidingTableViewCell/Classes/OverlayView/EVOverlayView.swift; sourceTree = "<group>"; };
+		5C0C0434EEDC3C137173D353A28E7C2F /* FormTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FormTextField.modulemap; sourceTree = "<group>"; };
+		5DFEB80BB0224E27998E182E3E9CDE77 /* DynamicButtonStyleDot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleDot.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleDot.swift; sourceTree = "<group>"; };
+		62B4C816EB57C105C4D7216BE43F0EDE /* Validation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Validation-umbrella.h"; sourceTree = "<group>"; };
+		62CAC89FC77C9B1D4E316D14B564D23F /* EVSlidingTableViewCell.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVSlidingTableViewCell.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		63301433DEBF9352CEA527D0FF09219E /* DynamicButtonStyleHorizontalLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHorizontalLine.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHorizontalLine.swift; sourceTree = "<group>"; };
+		63CC1E1C3273A3009B0E343CCD07D4F4 /* DynamicButtonStyleCaretRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretRight.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretRight.swift; sourceTree = "<group>"; };
+		67A369EFC8CA0A8DF9737F98AB899BC8 /* EVSlidingTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVSlidingTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		67C31696A9A94EEFC45E081DAB1E4B8C /* InputValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InputValidator.xcconfig; sourceTree = "<group>"; };
+		730C9AE4D8FD1170E0A86972F57A80BF /* InputValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InputValidator.swift; path = Sources/InputValidator.swift; sourceTree = "<group>"; };
+		7DA45F3E39E2EAE28016315978FBA1F4 /* Formatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Formatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8074C6A7719C187E397F67CF049B170E /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewCellExtension.swift; path = EVSlidingTableViewCell/Classes/Extensions/UITableViewCellExtension.swift; sourceTree = "<group>"; };
+		813EE1D1160631A5A055AC2E32F5BBA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82767020D377B8181A11D9F2D7CFB659 /* Validation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C424B9042A0F086D21BCFF7A9D80B2 /* DynamicButtonStylePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePlus.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePlus.swift; sourceTree = "<group>"; };
+		85F25C84C78F1206DFF7B5CC12153929 /* DynamicButtonStyleStop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleStop.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleStop.swift; sourceTree = "<group>"; };
+		8A7FA555EFB074119628AF1A2A1E89CB /* EVOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVOverlay.swift; path = EVSlidingTableViewCell/Classes/OverlayView/EVOverlay.swift; sourceTree = "<group>"; };
+		8F874DF376828B652E024EDAE0C22747 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		902ECB7C130D6D36A383219455449B2D /* EVSlidingTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVSlidingTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B5054DDCD48CBC3E9ED790FC5D3188 /* Pods-BoilerPlateCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoilerPlateCode.release.xcconfig"; sourceTree = "<group>"; };
+		961AB33D6533BDCAE5153E46F5698F82 /* DynamicButtonStyleCirclePlus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCirclePlus.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCirclePlus.swift; sourceTree = "<group>"; };
+		98C4A1B5108286F2248BF772E2CEEDD8 /* DynamicButtonStylePause.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStylePause.swift; path = Sources/DynamicButtonStyles/DynamicButtonStylePause.swift; sourceTree = "<group>"; };
+		9F24A6D4D85ADE0941B41371E68BE63F /* DynamicButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicButton.xcconfig; sourceTree = "<group>"; };
+		A2921385F099FCD6EAB4D2247F8A9E20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A328EABD1A4ADAB207B928221E6290E5 /* Formattable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formattable.swift; path = Sources/Formattable.swift; sourceTree = "<group>"; };
+		A357EC00299B71AA39EF910B4FD93E92 /* EVSlidingTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EVSlidingTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46579801CA258F4ABAF6A0D45216B12 /* FormTextFieldClearButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldClearButton.swift; path = Source/FormTextFieldClearButton.swift; sourceTree = "<group>"; };
+		A672F1D227BB885356FD40EA41F3CF33 /* DynamicButtonStyleArrowRight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowRight.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowRight.swift; sourceTree = "<group>"; };
+		A7BF546E963AF36C3D9F4103EA8AF709 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB5345BD4C82DF1656A1659B716EC43 /* DynamicButtonStyleCaretUp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretUp.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretUp.swift; sourceTree = "<group>"; };
+		AC6BC8C2CE9FC73198B32CF39B05B0CD /* Pods-BoilerPlateCode-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoilerPlateCode-frameworks.sh"; sourceTree = "<group>"; };
+		AD064817814F192A5161DCFAA31BB103 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF127DCCF94AD2CB3050E3B76AE490E6 /* DynamicButtonStyleRewind.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleRewind.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleRewind.swift; sourceTree = "<group>"; };
+		AFA0200C7D2E53B3AD335799030943F7 /* DynamicButtonStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyle.swift; path = Sources/DynamicButtonStyle.swift; sourceTree = "<group>"; };
+		B06D0F20565E1386543E61B08CB60C74 /* FormTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextField.swift; path = Source/FormTextField.swift; sourceTree = "<group>"; };
+		B62D70BB04C635C339C7CF4081FC133D /* Pods-BoilerPlateCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoilerPlateCode.debug.xcconfig"; sourceTree = "<group>"; };
+		BDA5255374914F809E8CB183E170F3E6 /* EVConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVConstants.swift; path = EVSlidingTableViewCell/Classes/EVConstants.swift; sourceTree = "<group>"; };
+		C009D7AD1F3AF5D142FEAFA835ED507D /* DynamicButtonStyleHamburger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleHamburger.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleHamburger.swift; sourceTree = "<group>"; };
+		C06EEA201F397BDF348B2149213B28AA /* DynamicButtonStyleDownload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleDownload.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleDownload.swift; sourceTree = "<group>"; };
+		C0BAF2F1B8101D17D453364F83AB37C1 /* UIViewLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewLoading.swift; path = EVSlidingTableViewCell/Classes/Extensions/UIViewLoading.swift; sourceTree = "<group>"; };
+		C14D4B851A7509AB78326FECA8161DF5 /* EVSlidingTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EVSlidingTableViewCell.modulemap; sourceTree = "<group>"; };
+		C51BAA508ED65E85C884D6E99913DCD2 /* Validation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B09C100040B3A85569834EF1CF2C0C /* DynamicButtonStyleFastForward.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleFastForward.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleFastForward.swift; sourceTree = "<group>"; };
+		C66225AFC77E36095CC771E6C53D9974 /* FormTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FormTextField.xcconfig; sourceTree = "<group>"; };
+		C6D03E2C5D5FE2419834A37DBF27E3AA /* ContactItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContactItem.swift; path = EVSlidingTableViewCell/Classes/ContactItem/ContactItem.swift; sourceTree = "<group>"; };
+		C7946E83E3841963D0D1634390ECAD13 /* Pods-BoilerPlateCode-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoilerPlateCode-resources.sh"; sourceTree = "<group>"; };
+		C7F2C2768A7960AFCF903CB839397594 /* Formatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Formatter-prefix.pch"; sourceTree = "<group>"; };
+		C87C236CBDCB46FBC119B7B7670CAFFA /* SlidingTableViewControllerCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SlidingTableViewControllerCell.xib; path = en.lproj/SlidingTableViewControllerCell.xib; sourceTree = "<group>"; };
+		CA119B2C0AFF0F1BF9640EDF6F2B0229 /* Formatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Formatter-dummy.m"; sourceTree = "<group>"; };
+		CCB322374C501901D5D6DE4EEBCFCE10 /* DynamicButtonStyleCaretLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretLeft.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretLeft.swift; sourceTree = "<group>"; };
+		CE882A7A865EBEA214E22E38728AD41B /* InputValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = InputValidator.modulemap; sourceTree = "<group>"; };
+		D52F60F86BC1566087BE0AB0AC6CE18A /* CardNumberFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardNumberFormatter.swift; path = Sources/CardNumberFormatter.swift; sourceTree = "<group>"; };
+		D8F07F830BAB76437E00627C50FAACAD /* Pods-BoilerPlateCode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoilerPlateCode-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DEA277628D6017A4B960831CF737A2FF /* SlidingTableViewControllerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlidingTableViewControllerCell.swift; path = EVSlidingTableViewCell/Classes/DrawerCell/SlidingTableViewControllerCell.swift; sourceTree = "<group>"; };
+		E0E2FEC50A6432E09C9BA0199A139361 /* ContactItem.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ContactItem.xib; path = EVSlidingTableViewCell/Classes/ContactItem/ContactItem.xib; sourceTree = "<group>"; };
+		E1A4A19CB4B3820F23B356B3E076D57B /* FormTextFieldTypeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldTypeManager.swift; path = Source/FormTextFieldTypeManager.swift; sourceTree = "<group>"; };
+		E262E44A2B81DA94A815E1B7713153D4 /* ResourceBundle-EVSlidingTableViewCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EVSlidingTableViewCell-Info.plist"; sourceTree = "<group>"; };
+		E3BBEAB32589584142A59525DF52A53C /* DynamicButtonStyleNone.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleNone.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleNone.swift; sourceTree = "<group>"; };
+		EC41E22724C45FCB1BBFC0BD92EB2717 /* DynamicButtonStyleClose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleClose.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleClose.swift; sourceTree = "<group>"; };
+		EC963156472923DF7D674A338529FE14 /* DynamicButtonStyleCaretDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCaretDown.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCaretDown.swift; sourceTree = "<group>"; };
+		ECD4360A9569D98C69086E37F1A66B38 /* SlidingTableViewControllerCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SlidingTableViewControllerCell.xib; path = EVSlidingTableViewCell/Classes/DrawerCell/SlidingTableViewControllerCell.xib; sourceTree = "<group>"; };
+		EE755915CEFB740734D4532D67175554 /* DynamicButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicButton-dummy.m"; sourceTree = "<group>"; };
+		EFEBC8D98B90695C819F850346BA2EEC /* DynamicButtonStyleCircleClose.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCircleClose.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCircleClose.swift; sourceTree = "<group>"; };
+		F5D39C6C36B824CCAF3E9E8EA4C9BB69 /* DynamicButtonStyleVerticalLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleVerticalLine.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleVerticalLine.swift; sourceTree = "<group>"; };
+		F60DED67806648DB8929CFAEDE4750E0 /* DynamicButtonStyleCheckMark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleCheckMark.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleCheckMark.swift; sourceTree = "<group>"; };
+		F70BB07953513DF27E622D676B600F4C /* DynamicButtonStyleArrowDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicButtonStyleArrowDown.swift; path = Sources/DynamicButtonStyles/DynamicButtonStyleArrowDown.swift; sourceTree = "<group>"; };
+		F89087621E9246B809AE3CA413F42783 /* Validation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Validation-dummy.m"; sourceTree = "<group>"; };
+		FA8DFA5A187A863BBAD43C8E1F0B004C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED7BB0ED5EC9CEE3910E7E8717084E2 /* Pods-BoilerPlateCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoilerPlateCode-dummy.m"; sourceTree = "<group>"; };
+		FFEA8FB1D4670773C810B27E5FB7E7B3 /* Formatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Formatter-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2391A51969680A2EF6D2F6B83ABC0A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E77FCE74EBE68CA39047A673221D245 /* Formatter.framework in Frameworks */,
+				B869C5582AA0B76D81E540AE776E52B5 /* Foundation.framework in Frameworks */,
+				C1C93E05C3476C00D6A063B7F742433A /* InputValidator.framework in Frameworks */,
+				C40806805B792281D5C8D32FD2FC3877 /* UIKit.framework in Frameworks */,
+				5E045ADC47936B22514D24A223657ED9 /* Validation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545D187887E89493E44BE6BCEFAAA8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF32AB6D8C904E031AB764220C3C5DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AEB20F58643DCA0F839CC487B4E8672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72490EF46D1CB99D5551C5D65E709D76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F66292F736CDC182D99F09BA190F7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF311890A55809646DC29BB99D743A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA13912EEC78CAB5973997ACFB70B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F2BCB38FCE5DAFD4AED0902732454B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D641C3D9484EE9235AA3D40A30902C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0084DD08E9A2383560949E90C72CD563 /* Foundation.framework in Frameworks */,
+				A2E645E204C259F4BB0192893B35DEB9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF0E62CE7130FD56D34705C2973ABD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE5D8EA4981D029319DBD7AC361C8D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E6FDCB1DA961A307FD2E96D0DB17F0 /* Foundation.framework in Frameworks */,
+				B03949B68190D6BCD0A9DB443BB0906C /* Validation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19883A08B1B911CAE25FF98308AC2BA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2482F9235E5DAB84B5795C4EA4047B21 /* Pods-BoilerPlateCode */ = {
+			isa = PBXGroup;
+			children = (
+				3E623FE431D0F15281AA7153E7314562 /* Info.plist */,
+				547A927A8F2726973A97417F486F54EC /* Pods-BoilerPlateCode.modulemap */,
+				D8F07F830BAB76437E00627C50FAACAD /* Pods-BoilerPlateCode-acknowledgements.markdown */,
+				4DE0B59AF94FDAF6F1756C9A2C3DA62F /* Pods-BoilerPlateCode-acknowledgements.plist */,
+				FED7BB0ED5EC9CEE3910E7E8717084E2 /* Pods-BoilerPlateCode-dummy.m */,
+				AC6BC8C2CE9FC73198B32CF39B05B0CD /* Pods-BoilerPlateCode-frameworks.sh */,
+				C7946E83E3841963D0D1634390ECAD13 /* Pods-BoilerPlateCode-resources.sh */,
+				3FDCB30947D859B2B4C542D3594DE77F /* Pods-BoilerPlateCode-umbrella.h */,
+				B62D70BB04C635C339C7CF4081FC133D /* Pods-BoilerPlateCode.debug.xcconfig */,
+				94B5054DDCD48CBC3E9ED790FC5D3188 /* Pods-BoilerPlateCode.release.xcconfig */,
+			);
+			name = "Pods-BoilerPlateCode";
+			path = "Target Support Files/Pods-BoilerPlateCode";
+			sourceTree = "<group>";
+		};
+		2D05CFB8B655A4C4FE65A35F8CCF461E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E48E93FA4BD49F38FF00D4FFAD5DB1 /* DynamicButton.modulemap */,
+				9F24A6D4D85ADE0941B41371E68BE63F /* DynamicButton.xcconfig */,
+				EE755915CEFB740734D4532D67175554 /* DynamicButton-dummy.m */,
+				12F677309F9ADDD2D79E29D0EC5DD8B0 /* DynamicButton-prefix.pch */,
+				1470260EAB734DBC26370D36A0BD8242 /* DynamicButton-umbrella.h */,
+				1CC895436D4AAB2FC807AD2E4F8F7E15 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicButton";
+			sourceTree = "<group>";
+		};
+		31A99F53C544E7830D5D3C2295C10184 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57221FDDE55059AA2EC62A39452BB50B /* DynamicButton.framework */,
+				62CAC89FC77C9B1D4E316D14B564D23F /* EVSlidingTableViewCell.bundle */,
+				A357EC00299B71AA39EF910B4FD93E92 /* EVSlidingTableViewCell.framework */,
+				7DA45F3E39E2EAE28016315978FBA1F4 /* Formatter.framework */,
+				314F0A5A8CE05DFA0AB877AD75699C77 /* FormTextField.framework */,
+				32AA8A0C9ACE4F793FB6C2CB5B50B1B7 /* InputValidator.framework */,
+				2F05B068D65D9CD5EF4A14492328BDF8 /* Pods_BoilerPlateCode.framework */,
+				C51BAA508ED65E85C884D6E99913DCD2 /* Validation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4264454C5D2969147ADB07196946ECD8 /* InputValidator */ = {
+			isa = PBXGroup;
+			children = (
+				47795EA95E8E0845148BFFE5862D3C4B /* CardExpirationDateInputValidator.swift */,
+				2DBAA70533295810C8B7FE7231D2DDB6 /* DecimalInputValidator.swift */,
+				188604FC83AFBC61726EEE50EC1141F2 /* InputValidatable.swift */,
+				730C9AE4D8FD1170E0A86972F57A80BF /* InputValidator.swift */,
+				4E8B4875DB1E13F8425852A7845A34AD /* RequiredInputValidator.swift */,
+				B550787BA1DD4839111E60DF98A91BC6 /* Support Files */,
+			);
+			path = InputValidator;
+			sourceTree = "<group>";
+		};
+		582FEA1A2FD0E87DEFC7326DEEBF5648 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8F874DF376828B652E024EDAE0C22747 /* Foundation.framework */,
+				A2921385F099FCD6EAB4D2247F8A9E20 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5869CB87CF6F3B6EE354B12F18866EB6 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				505D50B70265F0CA3BC47FC66AB4E0A7 /* Validation.swift */,
+				D8541887BF85902842BA922830C06D1E /* Support Files */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		62D87EF45F267A887514913F8DDD852D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE86A5CD9DA4421598C87A88A2F18FF /* Formatter.modulemap */,
+				25B6FCC4E1E00CAC726805CBB25CF538 /* Formatter.xcconfig */,
+				CA119B2C0AFF0F1BF9640EDF6F2B0229 /* Formatter-dummy.m */,
+				C7F2C2768A7960AFCF903CB839397594 /* Formatter-prefix.pch */,
+				FFEA8FB1D4670773C810B27E5FB7E7B3 /* Formatter-umbrella.h */,
+				AD064817814F192A5161DCFAA31BB103 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Formatter";
+			sourceTree = "<group>";
+		};
+		6A2B5435495863D7C16F7952075E3916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4622C3AB9281F84DCAF73D26116CA892 /* Formatter.framework */,
+				2656E22D4D0FDDEE84BB69358389615B /* InputValidator.framework */,
+				82767020D377B8181A11D9F2D7CFB659 /* Validation.framework */,
+				582FEA1A2FD0E87DEFC7326DEEBF5648 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6A2B5435495863D7C16F7952075E3916 /* Frameworks */,
+				99F9DC71D31703C6AC3280CB87F893DF /* Pods */,
+				31A99F53C544E7830D5D3C2295C10184 /* Products */,
+				902B8DCD725D115F68C3E61820C91325 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		902B8DCD725D115F68C3E61820C91325 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2482F9235E5DAB84B5795C4EA4047B21 /* Pods-BoilerPlateCode */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		99F9DC71D31703C6AC3280CB87F893DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4204689E21D2D24C3CA7CF51ADA4449 /* DynamicButton */,
+				AAB1674D233C8F076861E4298B56FC21 /* EVSlidingTableViewCell */,
+				A7DFAFAEF9E236E0A1CE7093D31A8F52 /* Formatter */,
+				B32DE497D6D817EF069D6BF916E80EF2 /* FormTextField */,
+				4264454C5D2969147ADB07196946ECD8 /* InputValidator */,
+				5869CB87CF6F3B6EE354B12F18866EB6 /* Validation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EC05A02C9E548C2CDDB97D9A1E99222 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C14D4B851A7509AB78326FECA8161DF5 /* EVSlidingTableViewCell.modulemap */,
+				22223D9225A93D63464214B99744D913 /* EVSlidingTableViewCell.xcconfig */,
+				52E48CE0D3FBC419B1F0D531270FCEB8 /* EVSlidingTableViewCell-dummy.m */,
+				902ECB7C130D6D36A383219455449B2D /* EVSlidingTableViewCell-prefix.pch */,
+				67A369EFC8CA0A8DF9737F98AB899BC8 /* EVSlidingTableViewCell-umbrella.h */,
+				A7BF546E963AF36C3D9F4103EA8AF709 /* Info.plist */,
+				E262E44A2B81DA94A815E1B7713153D4 /* ResourceBundle-EVSlidingTableViewCell-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EVSlidingTableViewCell";
+			sourceTree = "<group>";
+		};
+		A7DFAFAEF9E236E0A1CE7093D31A8F52 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				1702784F3FBD23A144721BD9D2981B5A /* CardExpirationDateFormatter.swift */,
+				D52F60F86BC1566087BE0AB0AC6CE18A /* CardNumberFormatter.swift */,
+				A328EABD1A4ADAB207B928221E6290E5 /* Formattable.swift */,
+				62D87EF45F267A887514913F8DDD852D /* Support Files */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
+		AAB1674D233C8F076861E4298B56FC21 /* EVSlidingTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C6D03E2C5D5FE2419834A37DBF27E3AA /* ContactItem.swift */,
+				E0E2FEC50A6432E09C9BA0199A139361 /* ContactItem.xib */,
+				0DD22F45E0B657FCF653BD3AE4060803 /* DrawerViewOption.swift */,
+				BDA5255374914F809E8CB183E170F3E6 /* EVConstants.swift */,
+				8A7FA555EFB074119628AF1A2A1E89CB /* EVOverlay.swift */,
+				5859C54EE15A1EDD4D24B00C7D865514 /* EVOverlayView.swift */,
+				DEA277628D6017A4B960831CF737A2FF /* SlidingTableViewControllerCell.swift */,
+				E8539C2E7EA526500BFAB8FC81BBCCBC /* SlidingTableViewControllerCell.xib */,
+				ECD4360A9569D98C69086E37F1A66B38 /* SlidingTableViewControllerCell.xib */,
+				8074C6A7719C187E397F67CF049B170E /* UITableViewCellExtension.swift */,
+				C0BAF2F1B8101D17D453364F83AB37C1 /* UIViewLoading.swift */,
+				19883A08B1B911CAE25FF98308AC2BA1 /* Resources */,
+				9EC05A02C9E548C2CDDB97D9A1E99222 /* Support Files */,
+			);
+			path = EVSlidingTableViewCell;
+			sourceTree = "<group>";
+		};
+		B32DE497D6D817EF069D6BF916E80EF2 /* FormTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B06D0F20565E1386543E61B08CB60C74 /* FormTextField.swift */,
+				A46579801CA258F4ABAF6A0D45216B12 /* FormTextFieldClearButton.swift */,
+				E1A4A19CB4B3820F23B356B3E076D57B /* FormTextFieldTypeManager.swift */,
+				E3007792046D8BC7EAECB0FE3A0E8F38 /* Support Files */,
+			);
+			path = FormTextField;
+			sourceTree = "<group>";
+		};
+		B550787BA1DD4839111E60DF98A91BC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				813EE1D1160631A5A055AC2E32F5BBA9 /* Info.plist */,
+				CE882A7A865EBEA214E22E38728AD41B /* InputValidator.modulemap */,
+				67C31696A9A94EEFC45E081DAB1E4B8C /* InputValidator.xcconfig */,
+				5020A8EBC578681025E1990DC3A9C403 /* InputValidator-dummy.m */,
+				36AD7CA93947CBB2818C2E50FD717827 /* InputValidator-prefix.pch */,
+				192F5F1D00F4239BAB4E35DAA944360B /* InputValidator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/InputValidator";
+			sourceTree = "<group>";
+		};
+		D8541887BF85902842BA922830C06D1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB42B96EF963764BDD43C2C0956976 /* Info.plist */,
+				4BC86CA5CF5C0E81B3729FC4C97DAEE9 /* Validation.modulemap */,
+				1659C421187ED5B193535EFCDBCD1BEF /* Validation.xcconfig */,
+				F89087621E9246B809AE3CA413F42783 /* Validation-dummy.m */,
+				2497917A683C9E88880B6B200264ABB9 /* Validation-prefix.pch */,
+				62B4C816EB57C105C4D7216BE43F0EDE /* Validation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Validation";
+			sourceTree = "<group>";
+		};
+		E3007792046D8BC7EAECB0FE3A0E8F38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C0C0434EEDC3C137173D353A28E7C2F /* FormTextField.modulemap */,
+				C66225AFC77E36095CC771E6C53D9974 /* FormTextField.xcconfig */,
+				2D223EF8C69E2A23796BCC041F4129AE /* FormTextField-dummy.m */,
+				2200C4CCFE08DC256A15F2C2907C44F1 /* FormTextField-prefix.pch */,
+				298C832DDD9240EC49E802DC50C63A60 /* FormTextField-umbrella.h */,
+				FA8DFA5A187A863BBAD43C8E1F0B004C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FormTextField";
+			sourceTree = "<group>";
+		};
+		F4204689E21D2D24C3CA7CF51ADA4449 /* DynamicButton */ = {
+			isa = PBXGroup;
+			children = (
+				46CD6E49D38F8B14FE2182C6497B8162 /* DynamicButton.swift */,
+				AFA0200C7D2E53B3AD335799030943F7 /* DynamicButtonStyle.swift */,
+				F70BB07953513DF27E622D676B600F4C /* DynamicButtonStyleArrowDown.swift */,
+				336AEFA18957D2DD24D7BC981E724E01 /* DynamicButtonStyleArrowLeft.swift */,
+				A672F1D227BB885356FD40EA41F3CF33 /* DynamicButtonStyleArrowRight.swift */,
+				4892E32840E4F31ED5A087272EBB1511 /* DynamicButtonStyleArrowUp.swift */,
+				EC963156472923DF7D674A338529FE14 /* DynamicButtonStyleCaretDown.swift */,
+				CCB322374C501901D5D6DE4EEBCFCE10 /* DynamicButtonStyleCaretLeft.swift */,
+				63CC1E1C3273A3009B0E343CCD07D4F4 /* DynamicButtonStyleCaretRight.swift */,
+				ABB5345BD4C82DF1656A1659B716EC43 /* DynamicButtonStyleCaretUp.swift */,
+				F60DED67806648DB8929CFAEDE4750E0 /* DynamicButtonStyleCheckMark.swift */,
+				EFEBC8D98B90695C819F850346BA2EEC /* DynamicButtonStyleCircleClose.swift */,
+				961AB33D6533BDCAE5153E46F5698F82 /* DynamicButtonStyleCirclePlus.swift */,
+				EC41E22724C45FCB1BBFC0BD92EB2717 /* DynamicButtonStyleClose.swift */,
+				5DFEB80BB0224E27998E182E3E9CDE77 /* DynamicButtonStyleDot.swift */,
+				C06EEA201F397BDF348B2149213B28AA /* DynamicButtonStyleDownload.swift */,
+				C5B09C100040B3A85569834EF1CF2C0C /* DynamicButtonStyleFastForward.swift */,
+				C009D7AD1F3AF5D142FEAFA835ED507D /* DynamicButtonStyleHamburger.swift */,
+				63301433DEBF9352CEA527D0FF09219E /* DynamicButtonStyleHorizontalLine.swift */,
+				E3BBEAB32589584142A59525DF52A53C /* DynamicButtonStyleNone.swift */,
+				98C4A1B5108286F2248BF772E2CEEDD8 /* DynamicButtonStylePause.swift */,
+				236AE9E8D75F7ED4B0216F6AC3BE3D9A /* DynamicButtonStylePlay.swift */,
+				85C424B9042A0F086D21BCFF7A9D80B2 /* DynamicButtonStylePlus.swift */,
+				19DE78ACDEE59C2CB27A176915850030 /* DynamicButtonStyleReload.swift */,
+				AF127DCCF94AD2CB3050E3B76AE490E6 /* DynamicButtonStyleRewind.swift */,
+				85F25C84C78F1206DFF7B5CC12153929 /* DynamicButtonStyleStop.swift */,
+				F5D39C6C36B824CCAF3E9E8EA4C9BB69 /* DynamicButtonStyleVerticalLine.swift */,
+				3525A79E9E9291163383F8E78DAB7BFE /* PathHelper.swift */,
+				2D05CFB8B655A4C4FE65A35F8CCF461E /* Support Files */,
+			);
+			path = DynamicButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13CA848F10F48DDA338D321FEEF1BB40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53D17AE151727F03D01F88D3BF6ADD4 /* Formatter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E9B40BF850582669268BD3A8D7B42A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE27FB3A191D5BEE0F9F3B29D68A9EB1 /* InputValidator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22C1DBCA56EDC43C0DA86225392C5A76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9CD2EEBFBABAAE47FAD5C5F3B46438 /* FormTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3019D078134FB4D135DEB21D40E08B20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CE88486245CE21764DABC9C70099DB /* EVSlidingTableViewCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923D2E98C877786D9B07041CB2A706FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260594236DC0DA170536026C8B3C87B4 /* DynamicButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0BC3237F2395648CC77D0E4900114E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13784C0BC66A2453EC74E6FD3715A100 /* Pods-BoilerPlateCode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1A2919A134359BA858B1B5691F6D4BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CA86D396D741A9F79BFBE1325BD4D5 /* Validation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		412EB979C641E9C8A8359CA6F8CCBA36 /* Pods-BoilerPlateCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16F2FE750E945E72DE97940F835B426 /* Build configuration list for PBXNativeTarget "Pods-BoilerPlateCode" */;
+			buildPhases = (
+				3F90BA4EEE4AD3EF7AA0C46D8AF7C9F5 /* Sources */,
+				5AEB20F58643DCA0F839CC487B4E8672 /* Frameworks */,
+				EC0BC3237F2395648CC77D0E4900114E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E26953BD0439042E8A97F94FD93E72C /* PBXTargetDependency */,
+				74DFC908DB5D5838E9FE5A0101DF8118 /* PBXTargetDependency */,
+				40CD8BA33CB5CEB6BCE9780C5FF869CC /* PBXTargetDependency */,
+				5DD2899F8CFC71941E22DC46101540EE /* PBXTargetDependency */,
+				0358D9910D7476F06B93FFAF034C71B2 /* PBXTargetDependency */,
+				9F59478150C54864EF06B5ABAB89A1EF /* PBXTargetDependency */,
+			);
+			name = "Pods-BoilerPlateCode";
+			productName = "Pods-BoilerPlateCode";
+			productReference = 2F05B068D65D9CD5EF4A14492328BDF8 /* Pods_BoilerPlateCode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6251BD2A949A640A383B60C3B828DE8E /* FormTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E5A9BE444971D4BF2959DB7D9BC2EA /* Build configuration list for PBXNativeTarget "FormTextField" */;
+			buildPhases = (
+				6EEB04424544872A2907AB7F4C862339 /* Sources */,
+				2391A51969680A2EF6D2F6B83ABC0A6B /* Frameworks */,
+				22C1DBCA56EDC43C0DA86225392C5A76 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FBF616F580FF100F0CF16BC51AFEBB5 /* PBXTargetDependency */,
+				EE9D38A3A1CE16A5A7D7A8B8E6AFC54D /* PBXTargetDependency */,
+				AFF34644B0770819FFDFA232670BCBCF /* PBXTargetDependency */,
+			);
+			name = FormTextField;
+			productName = FormTextField;
+			productReference = 314F0A5A8CE05DFA0AB877AD75699C77 /* FormTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EE0B22033041CECF724C28BC8DE3DC1 /* InputValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D097B193E453FE299A9346FCD40D2A /* Build configuration list for PBXNativeTarget "InputValidator" */;
+			buildPhases = (
+				50E2E8091762BC94513B7826D6965F22 /* Sources */,
+				FCE5D8EA4981D029319DBD7AC361C8D8 /* Frameworks */,
+				18E9B40BF850582669268BD3A8D7B42A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918BCAF2159EE26DAF867901FE423CE5 /* PBXTargetDependency */,
+			);
+			name = InputValidator;
+			productName = InputValidator;
+			productReference = 32AA8A0C9ACE4F793FB6C2CB5B50B1B7 /* InputValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB953C19676165CD6818225260FCCC39 /* EVSlidingTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3149B969F1A8641988D71C5EDE658AEF /* Build configuration list for PBXNativeTarget "EVSlidingTableViewCell" */;
+			buildPhases = (
+				B91B24A7533ED61CEB9C8B5FA5E7AF66 /* Sources */,
+				CFA13912EEC78CAB5973997ACFB70B2D /* Frameworks */,
+				4C8A2ED47FEBC56EEE6045476ACF5F0E /* Resources */,
+				3019D078134FB4D135DEB21D40E08B20 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				827D540CF4CF2756B74D428D21521B71 /* PBXTargetDependency */,
+			);
+			name = EVSlidingTableViewCell;
+			productName = EVSlidingTableViewCell;
+			productReference = A357EC00299B71AA39EF910B4FD93E92 /* EVSlidingTableViewCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA4E279505D3A7AE1ED009909B074495 /* EVSlidingTableViewCell-EVSlidingTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7AEBC6D6D71A4E5E2B8A00C66449897 /* Build configuration list for PBXNativeTarget "EVSlidingTableViewCell-EVSlidingTableViewCell" */;
+			buildPhases = (
+				E0C9E2678E15EBF9E0239EFDF0F933B5 /* Sources */,
+				FAF0E62CE7130FD56D34705C2973ABD5 /* Frameworks */,
+				9268AEAB3DDEDF79B7FCB2215CEBE4FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EVSlidingTableViewCell-EVSlidingTableViewCell";
+			productName = "EVSlidingTableViewCell-EVSlidingTableViewCell";
+			productReference = 62CAC89FC77C9B1D4E316D14B564D23F /* EVSlidingTableViewCell.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D55AE45BC1AF8C15262A3E4BD21C6551 /* Formatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AD184C78F01C25307F0EB5578EB9E8E /* Build configuration list for PBXNativeTarget "Formatter" */;
+			buildPhases = (
+				1FC5100BDE6147441DEE5B5CC23EF1D0 /* Sources */,
+				5F66292F736CDC182D99F09BA190F7C0 /* Frameworks */,
+				13CA848F10F48DDA338D321FEEF1BB40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Formatter;
+			productName = Formatter;
+			productReference = 7DA45F3E39E2EAE28016315978FBA1F4 /* Formatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA17100DB8275605CCE5C20A2BAE7024 /* DynamicButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26ED4D9121B10751C78D0A8DC6E401CA /* Build configuration list for PBXNativeTarget "DynamicButton" */;
+			buildPhases = (
+				EE60A28F8426E45B691495C970BCFA7B /* Sources */,
+				D641C3D9484EE9235AA3D40A30902C2B /* Frameworks */,
+				923D2E98C877786D9B07041CB2A706FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicButton;
+			productName = DynamicButton;
+			productReference = 57221FDDE55059AA2EC62A39452BB50B /* DynamicButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E35E2BF10731C585314E159FDF986698 /* Validation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051BDBD23E5D859D36FFA06735F76747 /* Build configuration list for PBXNativeTarget "Validation" */;
+			buildPhases = (
+				5F684B7CD33B9937197F4E519EA00D8F /* Sources */,
+				545D187887E89493E44BE6BCEFAAA8A6 /* Frameworks */,
+				F1A2919A134359BA858B1B5691F6D4BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Validation;
+			productName = Validation;
+			productReference = C51BAA508ED65E85C884D6E99913DCD2 /* Validation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 31A99F53C544E7830D5D3C2295C10184 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA17100DB8275605CCE5C20A2BAE7024 /* DynamicButton */,
+				BB953C19676165CD6818225260FCCC39 /* EVSlidingTableViewCell */,
+				CA4E279505D3A7AE1ED009909B074495 /* EVSlidingTableViewCell-EVSlidingTableViewCell */,
+				D55AE45BC1AF8C15262A3E4BD21C6551 /* Formatter */,
+				6251BD2A949A640A383B60C3B828DE8E /* FormTextField */,
+				8EE0B22033041CECF724C28BC8DE3DC1 /* InputValidator */,
+				412EB979C641E9C8A8359CA6F8CCBA36 /* Pods-BoilerPlateCode */,
+				E35E2BF10731C585314E159FDF986698 /* Validation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C8A2ED47FEBC56EEE6045476ACF5F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE181B983AE85DBEB48C75E7577B56E3 /* EVSlidingTableViewCell.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9268AEAB3DDEDF79B7FCB2215CEBE4FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356B322F9DE3036C7DA1BB8E444C7B7A /* ContactItem.xib in Resources */,
+				84630C1FDD8F56BA88988AAA7E95A7E5 /* SlidingTableViewControllerCell.xib in Resources */,
+				3ED86F2BA947B70C2FCF92AAF8679F2C /* SlidingTableViewControllerCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC5100BDE6147441DEE5B5CC23EF1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B094F18D29D09D5A8E991A60428B859 /* CardExpirationDateFormatter.swift in Sources */,
+				88B052E75BE1D6EB75B953257CCA5B41 /* CardNumberFormatter.swift in Sources */,
+				2C599646607DD8CD144C60030C690634 /* Formattable.swift in Sources */,
+				20C9ADC6D2CEFD22ADAE6E9314C93A1E /* Formatter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F90BA4EEE4AD3EF7AA0C46D8AF7C9F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0FDDDC90316040A0C467C03CA3408F /* Pods-BoilerPlateCode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2E8091762BC94513B7826D6965F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6EB1C778C857A623ACDDD1682DE807 /* CardExpirationDateInputValidator.swift in Sources */,
+				A4BF388B1BEF7C803312F91BC6CE2930 /* DecimalInputValidator.swift in Sources */,
+				9287A3B90BE1AF7D5FD15C01BB67AA5A /* InputValidatable.swift in Sources */,
+				C425B5A96D0B2297CEAD38649993834A /* InputValidator-dummy.m in Sources */,
+				E5A0219B3B06E322032C7D0F9E153387 /* InputValidator.swift in Sources */,
+				09AC3A087A9C790D0C65DB7E90DACC2A /* RequiredInputValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F684B7CD33B9937197F4E519EA00D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFB699A032CE128E7367C74A1B7B118 /* Validation-dummy.m in Sources */,
+				B86EA5EC4346A5414BF3FABC98C8F623 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEB04424544872A2907AB7F4C862339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CD8B485CED0ED4773B042940B6DFC7 /* FormTextField-dummy.m in Sources */,
+				3AA8A5AF8ECE162B565E1A4603C26610 /* FormTextField.swift in Sources */,
+				92E4243C2BDFF9A35707869697DE1637 /* FormTextFieldClearButton.swift in Sources */,
+				C85E057465498C283C62249EA4308942 /* FormTextFieldTypeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91B24A7533ED61CEB9C8B5FA5E7AF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEE1136142ECE2735A5A18A8FC7F4D9 /* ContactItem.swift in Sources */,
+				5FAC77C6A08250B54FBBBB042AA4D63F /* ContactItem.xib in Sources */,
+				4E0491A99988E459436319F0A84EF6AC /* DrawerViewOption.swift in Sources */,
+				BC1E754F6D032857D7177E5974A6BB8D /* EVConstants.swift in Sources */,
+				9510F0FAD9DF2AAA9957B84D3AC3A49F /* EVOverlay.swift in Sources */,
+				328735AE6E4F815CE547E7CDB0E51369 /* EVOverlayView.swift in Sources */,
+				AB6CF6571F45DD4C67DBDA3C5017C1B9 /* EVSlidingTableViewCell-dummy.m in Sources */,
+				36E23BE960B8AADADBEA37D2CB0D1F9C /* SlidingTableViewControllerCell.swift in Sources */,
+				235CF9EEF9B9DECF8B3C2A96CB60FA0D /* SlidingTableViewControllerCell.xib in Sources */,
+				9EDDC454E0A72765CCC2829CBB2520A9 /* SlidingTableViewControllerCell.xib in Sources */,
+				A8B5A12FB93A2F87B6AB842D211FA63D /* UITableViewCellExtension.swift in Sources */,
+				196CFD68BB6359B9AD4D9501581C4DAF /* UIViewLoading.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C9E2678E15EBF9E0239EFDF0F933B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE60A28F8426E45B691495C970BCFA7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850BFFF848007B8FB69086342368640D /* DynamicButton-dummy.m in Sources */,
+				3191DCD804C903CE8AB762FD812F7C41 /* DynamicButton.swift in Sources */,
+				6C4F763373A22E0529BB5D07DAB8C34B /* DynamicButtonStyle.swift in Sources */,
+				EE615EE44476A825562DA3C9BC07BA2A /* DynamicButtonStyleArrowDown.swift in Sources */,
+				92BFB4D589BAF3CBED315D8B71298528 /* DynamicButtonStyleArrowLeft.swift in Sources */,
+				86379C3DCC1BEED8B5A823394EA37095 /* DynamicButtonStyleArrowRight.swift in Sources */,
+				CFC892A79A90166FF6B987F131A14383 /* DynamicButtonStyleArrowUp.swift in Sources */,
+				EB5D4A095A3AF3B7131562B984E97A69 /* DynamicButtonStyleCaretDown.swift in Sources */,
+				A4D0CE56FBA2A16E5C118C3B05A315AB /* DynamicButtonStyleCaretLeft.swift in Sources */,
+				CE11686181135A0BF711407D5CD2D975 /* DynamicButtonStyleCaretRight.swift in Sources */,
+				961665FC73D34D0BC4847E189811AA86 /* DynamicButtonStyleCaretUp.swift in Sources */,
+				C0D6B45379C6EDD52DCA94F8F4278F3F /* DynamicButtonStyleCheckMark.swift in Sources */,
+				8A986AA5977F7C0CAB4D9C9F16CE4FD3 /* DynamicButtonStyleCircleClose.swift in Sources */,
+				BA197BD99ADB480ABF244AEFC6901040 /* DynamicButtonStyleCirclePlus.swift in Sources */,
+				D11F81DB50DB76E723BA8D744ED87F1C /* DynamicButtonStyleClose.swift in Sources */,
+				E2AD16F91375C7F59FAF2485ED457710 /* DynamicButtonStyleDot.swift in Sources */,
+				0E4AAC1F0D5E406D08DAE7E480BA4764 /* DynamicButtonStyleDownload.swift in Sources */,
+				6D4CCC54434F7A9F04DF1F6F75F78F62 /* DynamicButtonStyleFastForward.swift in Sources */,
+				74B69486C591977A04D6BE033AB60512 /* DynamicButtonStyleHamburger.swift in Sources */,
+				CD429B237D5FE82801A6D88EA6EEE373 /* DynamicButtonStyleHorizontalLine.swift in Sources */,
+				7D4EEFAE5596A88FE3558B16FD9F9982 /* DynamicButtonStyleNone.swift in Sources */,
+				28D69987160A9DFC158D5345A766C595 /* DynamicButtonStylePause.swift in Sources */,
+				8BCE6AFE5FF8063BEB2CD976D211998A /* DynamicButtonStylePlay.swift in Sources */,
+				29DDF37EB5C597F12AD390034B1A09FB /* DynamicButtonStylePlus.swift in Sources */,
+				B2A3F596EBA165BC0671CC37BE4D5FB7 /* DynamicButtonStyleReload.swift in Sources */,
+				965DA5DC5D80A04559C76F65198FF243 /* DynamicButtonStyleRewind.swift in Sources */,
+				F8D145C22570651C2CE7AC4481C990F2 /* DynamicButtonStyleStop.swift in Sources */,
+				0D234442FAE7A681F4D02E4399189055 /* DynamicButtonStyleVerticalLine.swift in Sources */,
+				AFF26FD8CE9ADDDD2E346F8E59D47669 /* PathHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0358D9910D7476F06B93FFAF034C71B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InputValidator;
+			target = 8EE0B22033041CECF724C28BC8DE3DC1 /* InputValidator */;
+			targetProxy = 41F24F91024B633458F4E5ED34E09597 /* PBXContainerItemProxy */;
+		};
+		40CD8BA33CB5CEB6BCE9780C5FF869CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FormTextField;
+			target = 6251BD2A949A640A383B60C3B828DE8E /* FormTextField */;
+			targetProxy = 081F01352E8AC9300309578716BC0300 /* PBXContainerItemProxy */;
+		};
+		5DD2899F8CFC71941E22DC46101540EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Formatter;
+			target = D55AE45BC1AF8C15262A3E4BD21C6551 /* Formatter */;
+			targetProxy = A58B7F8567F675EA3DEDD884A4D8B32D /* PBXContainerItemProxy */;
+		};
+		74DFC908DB5D5838E9FE5A0101DF8118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EVSlidingTableViewCell;
+			target = BB953C19676165CD6818225260FCCC39 /* EVSlidingTableViewCell */;
+			targetProxy = CFBA53C98766DCABC3A1770C49F4804A /* PBXContainerItemProxy */;
+		};
+		827D540CF4CF2756B74D428D21521B71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EVSlidingTableViewCell-EVSlidingTableViewCell";
+			target = CA4E279505D3A7AE1ED009909B074495 /* EVSlidingTableViewCell-EVSlidingTableViewCell */;
+			targetProxy = C1792D60CA9DA00617982CD9B2E30011 /* PBXContainerItemProxy */;
+		};
+		8E26953BD0439042E8A97F94FD93E72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicButton;
+			target = DA17100DB8275605CCE5C20A2BAE7024 /* DynamicButton */;
+			targetProxy = 1384576BD9A6EDE8446D7AA8574610E3 /* PBXContainerItemProxy */;
+		};
+		8FBF616F580FF100F0CF16BC51AFEBB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Formatter;
+			target = D55AE45BC1AF8C15262A3E4BD21C6551 /* Formatter */;
+			targetProxy = 5B090F0180C84D0B6227CF791130A246 /* PBXContainerItemProxy */;
+		};
+		918BCAF2159EE26DAF867901FE423CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Validation;
+			target = E35E2BF10731C585314E159FDF986698 /* Validation */;
+			targetProxy = 1B8B0CC71381982A57F1F00F768A2AEC /* PBXContainerItemProxy */;
+		};
+		9F59478150C54864EF06B5ABAB89A1EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Validation;
+			target = E35E2BF10731C585314E159FDF986698 /* Validation */;
+			targetProxy = CC019D0D55D5530FDCF8D1D43505ACA0 /* PBXContainerItemProxy */;
+		};
+		AFF34644B0770819FFDFA232670BCBCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Validation;
+			target = E35E2BF10731C585314E159FDF986698 /* Validation */;
+			targetProxy = D14FECD676C7CC4829D4A752997B38A2 /* PBXContainerItemProxy */;
+		};
+		EE9D38A3A1CE16A5A7D7A8B8E6AFC54D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InputValidator;
+			target = 8EE0B22033041CECF724C28BC8DE3DC1 /* InputValidator */;
+			targetProxy = 0A03FA439F3EE76AD5AAB1F41EA83526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8539C2E7EA526500BFAB8FC81BBCCBC /* SlidingTableViewControllerCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C87C236CBDCB46FBC119B7B7670CAFFA /* SlidingTableViewControllerCell.xib */,
+			);
+			name = SlidingTableViewControllerCell.xib;
+			path = EVSlidingTableViewCell/Classes/DrawerCell;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02D34271625392C391C487684817538C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B6FCC4E1E00CAC726805CBB25CF538 /* Formatter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Formatter/Formatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Formatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Formatter/Formatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Formatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09BF77962E0A3D0E9B6C8A0E043D0277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62D70BB04C635C339C7CF4081FC133D /* Pods-BoilerPlateCode.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BoilerPlateCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoilerPlateCode/Pods-BoilerPlateCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BoilerPlateCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		131973F7486A787F0469F00D09D79E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C31696A9A94EEFC45E081DAB1E4B8C /* InputValidator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InputValidator/InputValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InputValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InputValidator/InputValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = InputValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23D97CFBDDAFDBD72F85AF3D04D5B340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22223D9225A93D63464214B99744D913 /* EVSlidingTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EVSlidingTableViewCell/EVSlidingTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EVSlidingTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EVSlidingTableViewCell/EVSlidingTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EVSlidingTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B354AF59AC83F540C5AFCE9A3B8B170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F24A6D4D85ADE0941B41371E68BE63F /* DynamicButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicButton/DynamicButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicButton/DynamicButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DynamicButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4387630BCFDA3701D28791842E702582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B5054DDCD48CBC3E9ED790FC5D3188 /* Pods-BoilerPlateCode.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BoilerPlateCode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoilerPlateCode/Pods-BoilerPlateCode.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BoilerPlateCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C9D84646932F4E276E249E2F19F6FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B6FCC4E1E00CAC726805CBB25CF538 /* Formatter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Formatter/Formatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Formatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Formatter/Formatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Formatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D4183F7F1D740377BB6EA18E2BA0608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22223D9225A93D63464214B99744D913 /* EVSlidingTableViewCell.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EVSlidingTableViewCell";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EVSlidingTableViewCell/ResourceBundle-EVSlidingTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = EVSlidingTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4FD150DB0D4E4366AA6903BE9F94F445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1659C421187ED5B193535EFCDBCD1BEF /* Validation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Validation/Validation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Validation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Validation/Validation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Validation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A5F482A046473AC0CD18C95CC077466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1659C421187ED5B193535EFCDBCD1BEF /* Validation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Validation/Validation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Validation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Validation/Validation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Validation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6669D5490C88F5974E00B4A8A92B6E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66225AFC77E36095CC771E6C53D9974 /* FormTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FormTextField/FormTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FormTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FormTextField/FormTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FormTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8327649889396CD5C6FAF4CE313414D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F24A6D4D85ADE0941B41371E68BE63F /* DynamicButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DynamicButton/DynamicButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamicButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamicButton/DynamicButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DynamicButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D05CF8CEA20F404319CAAF8EB34C5C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22223D9225A93D63464214B99744D913 /* EVSlidingTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EVSlidingTableViewCell/EVSlidingTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EVSlidingTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EVSlidingTableViewCell/EVSlidingTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EVSlidingTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2ACBEB077BFED7A7C2CC2C8A6E65FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C31696A9A94EEFC45E081DAB1E4B8C /* InputValidator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InputValidator/InputValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/InputValidator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/InputValidator/InputValidator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = InputValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5481916DD7E0EA2B9837B04D54FBD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22223D9225A93D63464214B99744D913 /* EVSlidingTableViewCell.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EVSlidingTableViewCell";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EVSlidingTableViewCell/ResourceBundle-EVSlidingTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = EVSlidingTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FCC7DBDC50DB91C0AEBFA2A0C3F5EA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66225AFC77E36095CC771E6C53D9974 /* FormTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FormTextField/FormTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FormTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FormTextField/FormTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FormTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051BDBD23E5D859D36FFA06735F76747 /* Build configuration list for PBXNativeTarget "Validation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5F482A046473AC0CD18C95CC077466 /* Debug */,
+				4FD150DB0D4E4366AA6903BE9F94F445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26ED4D9121B10751C78D0A8DC6E401CA /* Build configuration list for PBXNativeTarget "DynamicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B354AF59AC83F540C5AFCE9A3B8B170 /* Debug */,
+				8327649889396CD5C6FAF4CE313414D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3149B969F1A8641988D71C5EDE658AEF /* Build configuration list for PBXNativeTarget "EVSlidingTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05CF8CEA20F404319CAAF8EB34C5C01 /* Debug */,
+				23D97CFBDDAFDBD72F85AF3D04D5B340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D097B193E453FE299A9346FCD40D2A /* Build configuration list for PBXNativeTarget "InputValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131973F7486A787F0469F00D09D79E0A /* Debug */,
+				D2ACBEB077BFED7A7C2CC2C8A6E65FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AD184C78F01C25307F0EB5578EB9E8E /* Build configuration list for PBXNativeTarget "Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D34271625392C391C487684817538C /* Debug */,
+				4C9D84646932F4E276E249E2F19F6FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7AEBC6D6D71A4E5E2B8A00C66449897 /* Build configuration list for PBXNativeTarget "EVSlidingTableViewCell-EVSlidingTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4183F7F1D740377BB6EA18E2BA0608 /* Debug */,
+				FB5481916DD7E0EA2B9837B04D54FBD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E5A9BE444971D4BF2959DB7D9BC2EA /* Build configuration list for PBXNativeTarget "FormTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC7DBDC50DB91C0AEBFA2A0C3F5EA96 /* Debug */,
+				6669D5490C88F5974E00B4A8A92B6E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16F2FE750E945E72DE97940F835B426 /* Build configuration list for PBXNativeTarget "Pods-BoilerPlateCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BF77962E0A3D0E9B6C8A0E043D0277 /* Debug */,
+				4387630BCFDA3701D28791842E702582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,27 @@
+PODS:
+  - DynamicButton (3.0.2)
+  - EVSlidingTableViewCell (2.0.2)
+  - Formatter (1.0.0)
+  - FormTextField (1.0.0):
+    - Formatter (~> 1.0.0)
+    - InputValidator (~> 1.0.0)
+  - InputValidator (1.0.1):
+    - Validation (~> 1.0.1)
+  - Validation (1.0.1)
+
+DEPENDENCIES:
+  - DynamicButton (~> 3.0.2)
+  - EVSlidingTableViewCell
+  - FormTextField
+
+SPEC CHECKSUMS:
+  DynamicButton: dc6bcacf117921490d099bad1eca96407781dfeb
+  EVSlidingTableViewCell: 67cdfed05a88896e462bd822ad8c632a6e3764f7
+  Formatter: 81601aa8bcbbac4cc18f1665913b691930a99470
+  FormTextField: ff84dec95ce9dec7cfb2490b8f369b179c548ed5
+  InputValidator: b86cc38de23bcf259987a00ba1075e09fa1b9c79
+  Validation: 9e128449861addfb0d37375b31830fb4bc5f84b9
+
+PODFILE CHECKSUM: 36ea57a4bf3e141f1077a5bef6c517e778392f86
+
+COCOAPODS: 1.1.0.rc.2
